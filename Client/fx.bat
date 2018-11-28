@@ -1,0 +1,1 @@
+xcopy /s /y /d .\DoomEngine\*.fx  .\Bin\Resource\Shader

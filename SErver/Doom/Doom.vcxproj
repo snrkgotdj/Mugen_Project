@@ -1,0 +1,289 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<Project DefaultTargets="Build" ToolsVersion="15.0" xmlns="http://schemas.microsoft.com/developer/msbuild/2003">
+  <ItemGroup Label="ProjectConfigurations">
+    <ProjectConfiguration Include="Debug|Win32">
+      <Configuration>Debug</Configuration>
+      <Platform>Win32</Platform>
+    </ProjectConfiguration>
+    <ProjectConfiguration Include="Release|Win32">
+      <Configuration>Release</Configuration>
+      <Platform>Win32</Platform>
+    </ProjectConfiguration>
+    <ProjectConfiguration Include="Debug|x64">
+      <Configuration>Debug</Configuration>
+      <Platform>x64</Platform>
+    </ProjectConfiguration>
+    <ProjectConfiguration Include="Release|x64">
+      <Configuration>Release</Configuration>
+      <Platform>x64</Platform>
+    </ProjectConfiguration>
+  </ItemGroup>
+  <PropertyGroup Label="Globals">
+    <VCProjectVersion>15.0</VCProjectVersion>
+    <ProjectGuid>{7A244272-0C43-4E51-89F3-4AD5BC34355E}</ProjectGuid>
+    <Keyword>Win32Proj</Keyword>
+    <RootNamespace>Doom</RootNamespace>
+    <WindowsTargetPlatformVersion>8.1</WindowsTargetPlatformVersion>
+  </PropertyGroup>
+  <Import Project="$(VCTargetsPath)\Microsoft.Cpp.Default.props" />
+  <PropertyGroup Condition="'$(Configuration)|$(Platform)'=='Debug|Win32'" Label="Configuration">
+    <ConfigurationType>Application</ConfigurationType>
+    <UseDebugLibraries>true</UseDebugLibraries>
+    <PlatformToolset>v140</PlatformToolset>
+    <CharacterSet>Unicode</CharacterSet>
+  </PropertyGroup>
+  <PropertyGroup Condition="'$(Configuration)|$(Platform)'=='Release|Win32'" Label="Configuration">
+    <ConfigurationType>Application</ConfigurationType>
+    <UseDebugLibraries>false</UseDebugLibraries>
+    <PlatformToolset>v140</PlatformToolset>
+    <WholeProgramOptimization>true</WholeProgramOptimization>
+    <CharacterSet>Unicode</CharacterSet>
+  </PropertyGroup>
+  <PropertyGroup Condition="'$(Configuration)|$(Platform)'=='Debug|x64'" Label="Configuration">
+    <ConfigurationType>Application</ConfigurationType>
+    <UseDebugLibraries>true</UseDebugLibraries>
+    <PlatformToolset>v140</PlatformToolset>
+    <CharacterSet>Unicode</CharacterSet>
+  </PropertyGroup>
+  <PropertyGroup Condition="'$(Configuration)|$(Platform)'=='Release|x64'" Label="Configuration">
+    <ConfigurationType>Application</ConfigurationType>
+    <UseDebugLibraries>false</UseDebugLibraries>
+    <PlatformToolset>v141</PlatformToolset>
+    <WholeProgramOptimization>true</WholeProgramOptimization>
+    <CharacterSet>Unicode</CharacterSet>
+  </PropertyGroup>
+  <Import Project="$(VCTargetsPath)\Microsoft.Cpp.props" />
+  <ImportGroup Label="ExtensionSettings">
+  </ImportGroup>
+  <ImportGroup Label="Shared">
+  </ImportGroup>
+  <ImportGroup Label="PropertySheets" Condition="'$(Configuration)|$(Platform)'=='Debug|Win32'">
+    <Import Project="$(UserRootDir)\Microsoft.Cpp.$(Platform).user.props" Condition="exists('$(UserRootDir)\Microsoft.Cpp.$(Platform).user.props')" Label="LocalAppDataPlatform" />
+  </ImportGroup>
+  <ImportGroup Label="PropertySheets" Condition="'$(Configuration)|$(Platform)'=='Release|Win32'">
+    <Import Project="$(UserRootDir)\Microsoft.Cpp.$(Platform).user.props" Condition="exists('$(UserRootDir)\Microsoft.Cpp.$(Platform).user.props')" Label="LocalAppDataPlatform" />
+  </ImportGroup>
+  <ImportGroup Label="PropertySheets" Condition="'$(Configuration)|$(Platform)'=='Debug|x64'">
+    <Import Project="$(UserRootDir)\Microsoft.Cpp.$(Platform).user.props" Condition="exists('$(UserRootDir)\Microsoft.Cpp.$(Platform).user.props')" Label="LocalAppDataPlatform" />
+  </ImportGroup>
+  <ImportGroup Label="PropertySheets" Condition="'$(Configuration)|$(Platform)'=='Release|x64'">
+    <Import Project="$(UserRootDir)\Microsoft.Cpp.$(Platform).user.props" Condition="exists('$(UserRootDir)\Microsoft.Cpp.$(Platform).user.props')" Label="LocalAppDataPlatform" />
+  </ImportGroup>
+  <PropertyGroup Label="UserMacros" />
+  <PropertyGroup Condition="'$(Configuration)|$(Platform)'=='Debug|Win32'">
+    <LinkIncremental>true</LinkIncremental>
+    <OutDir>..\Bin_Debug\</OutDir>
+    <LibraryPath>$(SolutionDir)\Bin_Debug\;$(LibraryPath)</LibraryPath>
+  </PropertyGroup>
+  <PropertyGroup Condition="'$(Configuration)|$(Platform)'=='Debug|x64'">
+    <LinkIncremental>true</LinkIncremental>
+  </PropertyGroup>
+  <PropertyGroup Condition="'$(Configuration)|$(Platform)'=='Release|Win32'">
+    <LinkIncremental>false</LinkIncremental>
+    <OutDir>..\Bin\</OutDir>
+    <LibraryPath>$(SolutionDir)\Bin\;$(LibraryPath)</LibraryPath>
+  </PropertyGroup>
+  <PropertyGroup Condition="'$(Configuration)|$(Platform)'=='Release|x64'">
+    <LinkIncremental>false</LinkIncremental>
+  </PropertyGroup>
+  <ItemDefinitionGroup Condition="'$(Configuration)|$(Platform)'=='Debug|Win32'">
+    <ClCompile>
+      <PrecompiledHeader>Use</PrecompiledHeader>
+      <WarningLevel>Level3</WarningLevel>
+      <Optimization>Disabled</Optimization>
+      <SDLCheck>true</SDLCheck>
+      <PreprocessorDefinitions>WIN32;_DEBUG;_WINDOWS;%(PreprocessorDefinitions)</PreprocessorDefinitions>
+      <AdditionalIncludeDirectories>..\DoomEngine\;..\Doom\;..\External\;..\ServerLib\</AdditionalIncludeDirectories>
+    </ClCompile>
+    <Link>
+      <SubSystem>Windows</SubSystem>
+      <GenerateDebugInformation>true</GenerateDebugInformation>
+    </Link>
+    <PreBuildEvent>
+      <Command>
+      </Command>
+    </PreBuildEvent>
+  </ItemDefinitionGroup>
+  <ItemDefinitionGroup Condition="'$(Configuration)|$(Platform)'=='Debug|x64'">
+    <ClCompile>
+      <PrecompiledHeader>Use</PrecompiledHeader>
+      <WarningLevel>Level3</WarningLevel>
+      <Optimization>Disabled</Optimization>
+      <SDLCheck>true</SDLCheck>
+      <PreprocessorDefinitions>_DEBUG;_WINDOWS;%(PreprocessorDefinitions)</PreprocessorDefinitions>
+    </ClCompile>
+    <Link>
+      <SubSystem>Windows</SubSystem>
+      <GenerateDebugInformation>true</GenerateDebugInformation>
+    </Link>
+  </ItemDefinitionGroup>
+  <ItemDefinitionGroup Condition="'$(Configuration)|$(Platform)'=='Release|Win32'">
+    <ClCompile>
+      <PrecompiledHeader>Use</PrecompiledHeader>
+      <WarningLevel>Level3</WarningLevel>
+      <Optimization>MaxSpeed</Optimization>
+      <FunctionLevelLinking>true</FunctionLevelLinking>
+      <IntrinsicFunctions>true</IntrinsicFunctions>
+      <SDLCheck>true</SDLCheck>
+      <PreprocessorDefinitions>WIN32;NDEBUG;_WINDOWS;%(PreprocessorDefinitions)</PreprocessorDefinitions>
+      <AdditionalUsingDirectories>
+      </AdditionalUsingDirectories>
+      <AdditionalIncludeDirectories>..\DoomEngine\;..\Doom\;..\External\;..\ServerLib\</AdditionalIncludeDirectories>
+    </ClCompile>
+    <Link>
+      <SubSystem>Windows</SubSystem>
+      <EnableCOMDATFolding>true</EnableCOMDATFolding>
+      <OptimizeReferences>true</OptimizeReferences>
+      <GenerateDebugInformation>true</GenerateDebugInformation>
+    </Link>
+  </ItemDefinitionGroup>
+  <ItemDefinitionGroup Condition="'$(Configuration)|$(Platform)'=='Release|x64'">
+    <ClCompile>
+      <PrecompiledHeader>Use</PrecompiledHeader>
+      <WarningLevel>Level3</WarningLevel>
+      <Optimization>MaxSpeed</Optimization>
+      <FunctionLevelLinking>true</FunctionLevelLinking>
+      <IntrinsicFunctions>true</IntrinsicFunctions>
+      <SDLCheck>true</SDLCheck>
+      <PreprocessorDefinitions>NDEBUG;_WINDOWS;%(PreprocessorDefinitions)</PreprocessorDefinitions>
+    </ClCompile>
+    <Link>
+      <SubSystem>Windows</SubSystem>
+      <EnableCOMDATFolding>true</EnableCOMDATFolding>
+      <OptimizeReferences>true</OptimizeReferences>
+      <GenerateDebugInformation>true</GenerateDebugInformation>
+    </Link>
+  </ItemDefinitionGroup>
+  <ItemGroup>
+    <ClInclude Include="..\External\CharactorScript.h" />
+    <ClInclude Include="..\External\ColScript.h" />
+    <ClInclude Include="..\External\HitColScript.h" />
+    <ClInclude Include="..\External\KeyCommand.h" />
+    <ClInclude Include="..\External\SaveLoadManager.h" />
+    <ClInclude Include="..\External\ScriptCode\BulletMgr.h" />
+    <ClInclude Include="..\External\ScriptCode\CameraScript.h" />
+    <ClInclude Include="..\External\ScriptCode\DownColScript.h" />
+    <ClInclude Include="..\External\ScriptCode\EffectManager.h" />
+    <ClInclude Include="..\External\ScriptCode\EffectScript.h" />
+    <ClInclude Include="..\External\ScriptCode\GameManager.h" />
+    <ClInclude Include="..\External\ScriptCode\GameMsg.h" />
+    <ClInclude Include="..\External\ScriptCode\IoriBullet.h" />
+    <ClInclude Include="..\External\ScriptCode\IoriHitCol.h" />
+    <ClInclude Include="..\External\ScriptCode\KOMsg.h" />
+    <ClInclude Include="..\External\ScriptCode\KyoEffect.h" />
+    <ClInclude Include="..\External\ScriptCode\KyoHitCol.h" />
+    <ClInclude Include="..\External\ScriptCode\KyoLoad.h" />
+    <ClInclude Include="..\External\ScriptCode\LayerManager.h" />
+    <ClInclude Include="..\External\ScriptCode\MapScript.h" />
+    <ClInclude Include="..\External\ScriptCode\ModeMgr.h" />
+    <ClInclude Include="..\External\ScriptCode\NanayaHitCol.h" />
+    <ClInclude Include="..\External\ScriptCode\NanayaScript.h" />
+    <ClInclude Include="..\External\ScriptCode\NanayaTestScript.h" />
+    <ClInclude Include="..\External\ScriptCode\PlayerManager.h" />
+    <ClInclude Include="..\External\ScriptCode\PlayerScIori.h" />
+    <ClInclude Include="..\External\ScriptCode\PlayerScKyo.h" />
+    <ClInclude Include="..\External\ScriptCode\ShadowScript.h" />
+    <ClInclude Include="..\External\ScriptCode\Single\SingletonScript.h" />
+    <ClInclude Include="..\External\ScriptCode\SoundLoadMgr.h" />
+    <ClInclude Include="..\External\ScriptCode\TestScIori.h" />
+    <ClInclude Include="..\External\ScriptCode\TestScKyo.h" />
+    <ClInclude Include="..\External\ScriptCode\TestScript.h" />
+    <ClInclude Include="..\External\ScriptCode\UIBar.h" />
+    <ClInclude Include="..\External\ScriptCode\UIBarBase.h" />
+    <ClInclude Include="..\External\ScriptCode\UIBtnOutput.h" />
+    <ClInclude Include="..\External\ScriptCode\UICharacterSel.h" />
+    <ClInclude Include="..\External\ScriptCode\UICmdList.h" />
+    <ClInclude Include="..\External\ScriptCode\UICombo.h" />
+    <ClInclude Include="..\External\ScriptCode\UIFont.h" />
+    <ClInclude Include="..\External\ScriptCode\UIGuardBar.h" />
+    <ClInclude Include="..\External\ScriptCode\UIManager.h" />
+    <ClInclude Include="..\External\ScriptCode\UIMatchWait.h" />
+    <ClInclude Include="..\External\ScriptCode\UIPanel.h" />
+    <ClInclude Include="..\External\ScriptCode\UITimer.h" />
+    <ClInclude Include="..\External\ScriptCode\UITitleScreen.h" />
+    <ClInclude Include="..\External\ScriptCode\UpColScript.h" />
+    <ClInclude Include="..\External\ScriptManager.h" />
+    <ClInclude Include="ClientMgr.h" />
+    <ClInclude Include="define_client.h" />
+    <ClInclude Include="define_server.h" />
+    <ClInclude Include="Doom.h" />
+    <ClInclude Include="resource.h" />
+    <ClInclude Include="stdafx.h" />
+    <ClInclude Include="targetver.h" />
+  </ItemGroup>
+  <ItemGroup>
+    <ClCompile Include="..\External\CharactorScript.cpp" />
+    <ClCompile Include="..\External\ColScript.cpp" />
+    <ClCompile Include="..\External\HitColScript.cpp" />
+    <ClCompile Include="..\External\KeyCommand.cpp" />
+    <ClCompile Include="..\External\SaveLoadManager.cpp" />
+    <ClCompile Include="..\External\ScriptCode\BulletMgr.cpp" />
+    <ClCompile Include="..\External\ScriptCode\CameraScript.cpp" />
+    <ClCompile Include="..\External\ScriptCode\DownColScript.cpp" />
+    <ClCompile Include="..\External\ScriptCode\EffectManager.cpp" />
+    <ClCompile Include="..\External\ScriptCode\EffectScript.cpp" />
+    <ClCompile Include="..\External\ScriptCode\GameManager.cpp" />
+    <ClCompile Include="..\External\ScriptCode\GameMsg.cpp" />
+    <ClCompile Include="..\External\ScriptCode\IoriBullet.cpp" />
+    <ClCompile Include="..\External\ScriptCode\IoriHitCol.cpp" />
+    <ClCompile Include="..\External\ScriptCode\KOMsg.cpp" />
+    <ClCompile Include="..\External\ScriptCode\KyoEffect.cpp" />
+    <ClCompile Include="..\External\ScriptCode\KyoHitCol.cpp" />
+    <ClCompile Include="..\External\ScriptCode\KyoLoad.cpp" />
+    <ClCompile Include="..\External\ScriptCode\LayerManager.cpp" />
+    <ClCompile Include="..\External\ScriptCode\MapScript.cpp" />
+    <ClCompile Include="..\External\ScriptCode\ModeMgr.cpp" />
+    <ClCompile Include="..\External\ScriptCode\NanayaHitCol.cpp" />
+    <ClCompile Include="..\External\ScriptCode\NanayaScript.cpp" />
+    <ClCompile Include="..\External\ScriptCode\NanayaTestScript.cpp" />
+    <ClCompile Include="..\External\ScriptCode\PlayerManager.cpp" />
+    <ClCompile Include="..\External\ScriptCode\PlayerScIori.cpp" />
+    <ClCompile Include="..\External\ScriptCode\PlayerScKyo.cpp" />
+    <ClCompile Include="..\External\ScriptCode\ShadowScript.cpp" />
+    <ClCompile Include="..\External\ScriptCode\SoundLoadMgr.cpp" />
+    <ClCompile Include="..\External\ScriptCode\TestScIori.cpp" />
+    <ClCompile Include="..\External\ScriptCode\TestScKyo.cpp" />
+    <ClCompile Include="..\External\ScriptCode\TestScript.cpp" />
+    <ClCompile Include="..\External\ScriptCode\UIBar.cpp" />
+    <ClCompile Include="..\External\ScriptCode\UIBarBase.cpp" />
+    <ClCompile Include="..\External\ScriptCode\UIBtnOutput.cpp" />
+    <ClCompile Include="..\External\ScriptCode\UICharacterSel.cpp" />
+    <ClCompile Include="..\External\ScriptCode\UICmdList.cpp" />
+    <ClCompile Include="..\External\ScriptCode\UICombo.cpp" />
+    <ClCompile Include="..\External\ScriptCode\UIFont.cpp" />
+    <ClCompile Include="..\External\ScriptCode\UIGuardBar.cpp" />
+    <ClCompile Include="..\External\ScriptCode\UIManager.cpp" />
+    <ClCompile Include="..\External\ScriptCode\UIMatchWait.cpp" />
+    <ClCompile Include="..\External\ScriptCode\UIPanel.cpp" />
+    <ClCompile Include="..\External\ScriptCode\UITimer.cpp" />
+    <ClCompile Include="..\External\ScriptCode\UITitleScreen.cpp" />
+    <ClCompile Include="..\External\ScriptCode\UpColScript.cpp" />
+    <ClCompile Include="..\External\ScriptManager.cpp" />
+    <ClCompile Include="ClientMgr.cpp" />
+    <ClCompile Include="Doom.cpp" />
+    <ClCompile Include="stdafx.cpp">
+      <PrecompiledHeader Condition="'$(Configuration)|$(Platform)'=='Debug|Win32'">Create</PrecompiledHeader>
+      <PrecompiledHeader Condition="'$(Configuration)|$(Platform)'=='Debug|x64'">Create</PrecompiledHeader>
+      <PrecompiledHeader Condition="'$(Configuration)|$(Platform)'=='Release|Win32'">Create</PrecompiledHeader>
+      <PrecompiledHeader Condition="'$(Configuration)|$(Platform)'=='Release|x64'">Create</PrecompiledHeader>
+    </ClCompile>
+  </ItemGroup>
+  <ItemGroup>
+    <ResourceCompile Include="Doom.rc" />
+  </ItemGroup>
+  <ItemGroup>
+    <Image Include="Doom.ico" />
+    <Image Include="small.ico" />
+  </ItemGroup>
+  <ItemGroup>
+    <ProjectReference Include="..\DoomEngine\DoomEngine.vcxproj">
+      <Project>{d4ceba7a-d9c8-447e-a864-636ab3acfab2}</Project>
+    </ProjectReference>
+    <ProjectReference Include="..\ServerLib\ServerLib.vcxproj">
+      <Project>{3e7d59ab-8103-4814-9599-9cab9465c6c8}</Project>
+    </ProjectReference>
+  </ItemGroup>
+  <Import Project="$(VCTargetsPath)\Microsoft.Cpp.targets" />
+  <ImportGroup Label="ExtensionTargets">
+  </ImportGroup>
+</Project>

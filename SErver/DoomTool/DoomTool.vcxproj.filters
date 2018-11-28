@@ -1,0 +1,694 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<Project ToolsVersion="4.0" xmlns="http://schemas.microsoft.com/developer/msbuild/2003">
+  <ItemGroup>
+    <Filter Include="소스 파일">
+      <UniqueIdentifier>{4FC737F1-C7A5-4376-A066-2A32D752A2FF}</UniqueIdentifier>
+      <Extensions>cpp;c;cc;cxx;def;odl;idl;hpj;bat;asm;asmx</Extensions>
+    </Filter>
+    <Filter Include="헤더 파일">
+      <UniqueIdentifier>{93995380-89BD-4b04-88EB-625FBE52EBFB}</UniqueIdentifier>
+      <Extensions>h;hh;hpp;hxx;hm;inl;inc;xsd</Extensions>
+    </Filter>
+    <Filter Include="리소스 파일">
+      <UniqueIdentifier>{67DA6AB6-F800-4c08-8B7A-83BB121AAD01}</UniqueIdentifier>
+      <Extensions>rc;ico;cur;bmp;dlg;rc2;rct;bin;rgs;gif;jpg;jpeg;jpe;resx;tiff;tif;png;wav;mfcribbon-ms</Extensions>
+    </Filter>
+    <Filter Include="소스 파일\02. MainFrm">
+      <UniqueIdentifier>{5b8bfaef-d40c-473e-a3a5-8d4aff6c3289}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="소스 파일\01. App">
+      <UniqueIdentifier>{d94db2b3-96c1-4aac-9589-6d566a556347}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="소스 파일\03. View">
+      <UniqueIdentifier>{736d074c-d0be-403a-8b76-c670a439abfe}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="소스 파일\04. Wnd">
+      <UniqueIdentifier>{18a4559a-0c1f-456a-b096-108bf1bd4318}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="소스 파일\04. Wnd\01. MySpliter">
+      <UniqueIdentifier>{767132d5-aac8-437d-88cb-1069b2498cdb}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="소스 파일\03. View\01. GameView">
+      <UniqueIdentifier>{cad355c1-f6bd-410a-970e-da2167af9347}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="소스 파일\03. View\02. HierachyView">
+      <UniqueIdentifier>{07e4211f-4869-4a35-a8de-626ecb250f9a}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="소스 파일\03. View\03. ComponentView">
+      <UniqueIdentifier>{e2a7c180-dad1-45ff-bbe7-5c843be84a4f}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="소스 파일\03. View\04. ButtonView">
+      <UniqueIdentifier>{133c3676-b7f6-4bc4-91b2-b1e0b8d291ad}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="소스 파일\03. View\05. DebugView">
+      <UniqueIdentifier>{eb4cdbab-adeb-454a-96ae-15c5c7af693f}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="소스 파일\03. View\03. ComponentView\01. ComponentDlg">
+      <UniqueIdentifier>{75110d5e-9cf1-43f5-9145-77d68164a215}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="소스 파일\03. View\03. ComponentView\01. ComponentDlg\01. TransformDlg">
+      <UniqueIdentifier>{2be73c25-65ff-454f-9130-7983bf86cfab}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="소스 파일\03. View\03. ComponentView\01. ComponentDlg\02. MeshRenderDlg">
+      <UniqueIdentifier>{94d52c14-4c59-4d88-a1c6-eef56c7c7918}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="소스 파일\03. View\03. ComponentView\01. ComponentDlg\03. ColliderDlg">
+      <UniqueIdentifier>{24e304cc-a377-42bd-9226-638938f9b5d6}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="소스 파일\05. Dialog">
+      <UniqueIdentifier>{9627344d-0f4c-47c5-93a2-45927f8552b1}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="소스 파일\05. Dialog\01. ListDlg">
+      <UniqueIdentifier>{e881b556-1a22-4701-b2a1-b03bfa22b601}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="소스 파일\03. View\03. ComponentView\01. ComponentDlg\06. CameraDlg">
+      <UniqueIdentifier>{da7a69e4-5790-48b4-9063-b9a5867430b1}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="소스 파일\03. View\02. HierachyView\TreeCtrlDlg">
+      <UniqueIdentifier>{0e732084-8ef3-4512-aba3-a49cb0932949}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="소스 파일\03. View\02. HierachyView\TreeCtrlDlg\01. HierachyDlg">
+      <UniqueIdentifier>{b9f8beb3-c81c-423d-b39e-a272d738b8c7}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="소스 파일\03. View\02. HierachyView\TreeCtrlDlg\02. ResDlg">
+      <UniqueIdentifier>{2b879bd9-75f6-421b-80db-6a93e582aad3}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="소스 파일\06. External">
+      <UniqueIdentifier>{6eb522c7-6ed6-4ead-8889-ae0683c45c02}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="소스 파일\06. External\ScriptCode">
+      <UniqueIdentifier>{2d8288f3-c04d-477f-b379-c35d407c1efe}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="소스 파일\06. External\ScriptCode\ScriptCode">
+      <UniqueIdentifier>{8499fab1-4f60-4e6e-88e0-316e36a2f081}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="소스 파일\06. External\ScriptCode\ScriptCode\ScriptManager">
+      <UniqueIdentifier>{87dd7914-845b-421e-8d09-8d527bce3c23}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="소스 파일\06. External\SaveLoadManager">
+      <UniqueIdentifier>{bee9cc36-c20f-4ec7-859f-2c29a490f791}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="소스 파일\05. Dialog\02. LayerDlg">
+      <UniqueIdentifier>{56c3de6f-a440-449b-b974-b2962519ea2b}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="소스 파일\03. View\03. ComponentView\01. ComponentDlg\05. AnimatorDlgEX">
+      <UniqueIdentifier>{f8c16378-b65d-4eba-a900-b4191f2b0958}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="소스 파일\03. View\03. ComponentView\01. ComponentDlg\07. ScriptDlg">
+      <UniqueIdentifier>{99350ff2-37a4-42a5-8707-7e7426c7c10e}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="소스 파일\05. Dialog\03. AddAnimDlg">
+      <UniqueIdentifier>{c5a3fb51-d8d6-48a0-8c3f-1de93f26c593}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="소스 파일\05. Dialog\04. GameObjDlg">
+      <UniqueIdentifier>{a3017263-a318-47c8-82fc-44446e62690b}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="소스 파일\05. Dialog\05. ChangeLayerDlg">
+      <UniqueIdentifier>{c0665d14-988b-4f7d-a1db-72a3ca2dadaf}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="소스 파일\06. External\ScriptCode\ScriptCode\Camera">
+      <UniqueIdentifier>{98d02253-e57e-4298-b901-15210f3e2743}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="소스 파일\06. External\ScriptCode\Collider">
+      <UniqueIdentifier>{4e637d90-e3a7-4e57-8251-eb8da8341bd3}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="소스 파일\06. External\ScriptCode\Collider\DownCol">
+      <UniqueIdentifier>{3bfcd281-82e4-4020-b149-e74037480b21}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="소스 파일\06. External\ScriptCode\Collider\HitCol">
+      <UniqueIdentifier>{52c027c1-f152-4197-a4d0-5b66d9134543}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="소스 파일\06. External\ScriptCode\Collider\UpCol">
+      <UniqueIdentifier>{ebfa9a82-2cde-4e5a-ac59-d1a2f89e5484}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="소스 파일\03. View\05. DebugView\01. EditAnimDlg">
+      <UniqueIdentifier>{bb211df3-88fd-4773-bca1-b8d0088f4633}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="소스 파일\06. External\ScriptCode\ScriptCode\Character">
+      <UniqueIdentifier>{9eb09b73-bda0-48a7-a818-62c675bbad10}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="소스 파일\06. External\ScriptCode\ScriptCode\Character\Iori">
+      <UniqueIdentifier>{a0389d95-ef67-43bd-8b71-bd53b6355313}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="소스 파일\06. External\ScriptCode\ScriptCode\Character\Kyo">
+      <UniqueIdentifier>{367204f1-6eb9-4035-b9b0-98f15fcb71b2}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="소스 파일\06. External\ScriptCode\ScriptCode\Character\Nanaya">
+      <UniqueIdentifier>{becdfb88-dd10-466d-93bc-944277105615}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="소스 파일\06. External\ScriptCode\ScriptCode\UI">
+      <UniqueIdentifier>{4e7136c5-e711-45af-930d-9f3e67ade011}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="소스 파일\06. External\ScriptCode\ScriptCode\UI\UIBar">
+      <UniqueIdentifier>{b247b0a3-8ee4-424d-9c7a-24ae08757fbc}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="소스 파일\06. External\ScriptCode\ScriptCode\UI\Panel">
+      <UniqueIdentifier>{0aa832af-ab96-4bf3-b1d5-7c4a85765652}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="소스 파일\06. External\KeyCommand">
+      <UniqueIdentifier>{1b1b79d3-b879-4c33-8ca3-2e0763487256}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="소스 파일\03. View\02. HierachyView\TreeCtrlDlg\03. LayerDlg">
+      <UniqueIdentifier>{41dfd7b7-3bd9-4991-bf4a-c8005b9c6703}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="소스 파일\05. Dialog\07. EditLayerDlg">
+      <UniqueIdentifier>{44b131cb-3c2c-4a0a-ad62-e7ce42448221}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="소스 파일\05. Dialog\08. ShootLayerDlg">
+      <UniqueIdentifier>{b13f8779-807c-4e5a-85d3-2cc59e695be3}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="소스 파일\05. Dialog\06. CheckColLayerDlg">
+      <UniqueIdentifier>{8f1fcbd0-e015-4bf9-a814-c18a8462c8ff}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="소스 파일\06. External\ScriptCode\Manager">
+      <UniqueIdentifier>{b92de5c4-a185-4333-a654-822338b86665}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="소스 파일\06. External\ScriptCode\ScriptCode\Effect">
+      <UniqueIdentifier>{212f98f7-a226-4f2d-9bec-91567df7fab5}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="소스 파일\06. External\ScriptCode\ScriptCode\Map">
+      <UniqueIdentifier>{408cd12c-9673-4f3c-84c6-8f7a3dac61b6}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="소스 파일\06. External\ScriptCode\ScriptCode\UI\Combo">
+      <UniqueIdentifier>{552fff79-0b50-4c0e-a8f7-982102012c71}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="소스 파일\06. External\ScriptCode\ScriptCode\UI\Timer">
+      <UniqueIdentifier>{3df51f88-bb61-41a9-881c-ae638c68a3bf}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="소스 파일\06. External\ScriptCode\ScriptCode\UI\CharacterSel">
+      <UniqueIdentifier>{adb88ba8-0d9a-4d27-a19d-c6a13b9eb790}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="소스 파일\06. External\ScriptCode\ScriptCode\Shadow">
+      <UniqueIdentifier>{7bf00145-ee0e-4daa-84f5-67734d35d0b9}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="소스 파일\06. External\ScriptCode\ScriptCode\UI\Title">
+      <UniqueIdentifier>{8d7b6446-acf7-42c7-8321-ddc96638ca29}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="소스 파일\06. External\ScriptCode\ScriptCode\UI\GameMsg">
+      <UniqueIdentifier>{edacffcc-8b78-4cd5-914a-983e8e13ba8d}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="소스 파일\06. External\ScriptCode\Bullet">
+      <UniqueIdentifier>{8427e1f9-9e1c-4010-a8ef-58e3a20057ca}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="소스 파일\06. External\ScriptCode\ScriptCode\UI\BtnOutput">
+      <UniqueIdentifier>{3df56421-6381-42b0-aedd-5bcd43284943}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="소스 파일\06. External\ClientManager">
+      <UniqueIdentifier>{2bf91514-3789-41c7-926e-39786dd48574}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="소스 파일\06. External\ScriptCode\ScriptCode\UI\MatchWait">
+      <UniqueIdentifier>{84ffa105-b67f-44ad-b83a-0711c0a4af5a}</UniqueIdentifier>
+    </Filter>
+  </ItemGroup>
+  <ItemGroup>
+    <ClInclude Include="stdafx.h">
+      <Filter>헤더 파일</Filter>
+    </ClInclude>
+    <ClInclude Include="targetver.h">
+      <Filter>헤더 파일</Filter>
+    </ClInclude>
+    <ClInclude Include="Resource.h">
+      <Filter>헤더 파일</Filter>
+    </ClInclude>
+    <ClInclude Include="DoomTool.h">
+      <Filter>소스 파일\01. App</Filter>
+    </ClInclude>
+    <ClInclude Include="MainFrm.h">
+      <Filter>소스 파일\02. MainFrm</Filter>
+    </ClInclude>
+    <ClInclude Include="MySplitterWnd.h">
+      <Filter>소스 파일\04. Wnd\01. MySpliter</Filter>
+    </ClInclude>
+    <ClInclude Include="DebugView.h">
+      <Filter>소스 파일\03. View\05. DebugView</Filter>
+    </ClInclude>
+    <ClInclude Include="ButtonView.h">
+      <Filter>소스 파일\03. View\04. ButtonView</Filter>
+    </ClInclude>
+    <ClInclude Include="ComponentView.h">
+      <Filter>소스 파일\03. View\03. ComponentView</Filter>
+    </ClInclude>
+    <ClInclude Include="GameView.h">
+      <Filter>소스 파일\03. View\01. GameView</Filter>
+    </ClInclude>
+    <ClInclude Include="ComponentDlg.h">
+      <Filter>소스 파일\03. View\03. ComponentView\01. ComponentDlg</Filter>
+    </ClInclude>
+    <ClInclude Include="TransformDlg.h">
+      <Filter>소스 파일\03. View\03. ComponentView\01. ComponentDlg\01. TransformDlg</Filter>
+    </ClInclude>
+    <ClInclude Include="MeshRenderDlg.h">
+      <Filter>소스 파일\03. View\03. ComponentView\01. ComponentDlg\02. MeshRenderDlg</Filter>
+    </ClInclude>
+    <ClInclude Include="ListDlg.h">
+      <Filter>소스 파일\05. Dialog\01. ListDlg</Filter>
+    </ClInclude>
+    <ClInclude Include="ColliderDlg.h">
+      <Filter>소스 파일\03. View\03. ComponentView\01. ComponentDlg\03. ColliderDlg</Filter>
+    </ClInclude>
+    <ClInclude Include="ScriptDlg.h">
+      <Filter>소스 파일\03. View\03. ComponentView\01. ComponentDlg\07. ScriptDlg</Filter>
+    </ClInclude>
+    <ClInclude Include="..\External\ScriptManager.h">
+      <Filter>소스 파일\06. External\ScriptCode\ScriptCode\ScriptManager</Filter>
+    </ClInclude>
+    <ClInclude Include="TreeCtrlDlg.h">
+      <Filter>소스 파일\03. View\02. HierachyView\TreeCtrlDlg</Filter>
+    </ClInclude>
+    <ClInclude Include="CameraDlg.h">
+      <Filter>소스 파일\03. View\03. ComponentView\01. ComponentDlg\06. CameraDlg</Filter>
+    </ClInclude>
+    <ClInclude Include="HierachyDlg.h">
+      <Filter>소스 파일\03. View\02. HierachyView\TreeCtrlDlg\01. HierachyDlg</Filter>
+    </ClInclude>
+    <ClInclude Include="HierachyView.h">
+      <Filter>소스 파일\03. View\02. HierachyView</Filter>
+    </ClInclude>
+    <ClInclude Include="ResDlg.h">
+      <Filter>소스 파일\03. View\02. HierachyView\TreeCtrlDlg\02. ResDlg</Filter>
+    </ClInclude>
+    <ClInclude Include="..\External\SaveLoadManager.h">
+      <Filter>소스 파일\06. External\SaveLoadManager</Filter>
+    </ClInclude>
+    <ClInclude Include="LayerDlg.h">
+      <Filter>소스 파일\05. Dialog\02. LayerDlg</Filter>
+    </ClInclude>
+    <ClInclude Include="AddAnimDlg.h">
+      <Filter>소스 파일\05. Dialog\03. AddAnimDlg</Filter>
+    </ClInclude>
+    <ClInclude Include="AnimatorDlgEX.h">
+      <Filter>소스 파일\03. View\03. ComponentView\01. ComponentDlg\05. AnimatorDlgEX</Filter>
+    </ClInclude>
+    <ClInclude Include="GameObjDlg.h">
+      <Filter>소스 파일\05. Dialog\04. GameObjDlg</Filter>
+    </ClInclude>
+    <ClInclude Include="..\External\ScriptCode\PlayerScKyo.h">
+      <Filter>소스 파일\06. External\ScriptCode\ScriptCode\Character\Kyo</Filter>
+    </ClInclude>
+    <ClInclude Include="..\External\ScriptCode\NanayaScript.h">
+      <Filter>소스 파일\06. External\ScriptCode\ScriptCode\Character\Nanaya</Filter>
+    </ClInclude>
+    <ClInclude Include="..\External\ScriptCode\CameraScript.h">
+      <Filter>소스 파일\06. External\ScriptCode\ScriptCode\Camera</Filter>
+    </ClInclude>
+    <ClInclude Include="..\External\ScriptCode\DownColScript.h">
+      <Filter>소스 파일\06. External\ScriptCode\Collider\DownCol</Filter>
+    </ClInclude>
+    <ClInclude Include="..\External\ScriptCode\UpColScript.h">
+      <Filter>소스 파일\06. External\ScriptCode\Collider\UpCol</Filter>
+    </ClInclude>
+    <ClInclude Include="ChangeLayerDlg.h">
+      <Filter>소스 파일\05. Dialog\05. ChangeLayerDlg</Filter>
+    </ClInclude>
+    <ClInclude Include="..\External\ScriptCode\PlayerScIori.h">
+      <Filter>소스 파일\06. External\ScriptCode\ScriptCode\Character\Iori</Filter>
+    </ClInclude>
+    <ClInclude Include="..\External\ScriptCode\UIBar.h">
+      <Filter>소스 파일\06. External\ScriptCode\ScriptCode\UI\UIBar</Filter>
+    </ClInclude>
+    <ClInclude Include="..\External\ScriptCode\UIPanel.h">
+      <Filter>소스 파일\06. External\ScriptCode\ScriptCode\UI\Panel</Filter>
+    </ClInclude>
+    <ClInclude Include="..\External\KeyCommand.h">
+      <Filter>소스 파일\06. External\KeyCommand</Filter>
+    </ClInclude>
+    <ClInclude Include="CheckColLayerDlg.h">
+      <Filter>소스 파일\05. Dialog\06. CheckColLayerDlg</Filter>
+    </ClInclude>
+    <ClInclude Include="EditAnimDlg.h">
+      <Filter>소스 파일\05. Dialog\07. EditLayerDlg</Filter>
+    </ClInclude>
+    <ClInclude Include="LayerDialog.h">
+      <Filter>소스 파일\03. View\02. HierachyView\TreeCtrlDlg\03. LayerDlg</Filter>
+    </ClInclude>
+    <ClInclude Include="..\External\ScriptCode\TestScript.h">
+      <Filter>소스 파일\06. External\ScriptCode\ScriptCode</Filter>
+    </ClInclude>
+    <ClInclude Include="..\External\ColScript.h">
+      <Filter>소스 파일\06. External\ScriptCode\Collider</Filter>
+    </ClInclude>
+    <ClInclude Include="..\External\CharactorScript.h">
+      <Filter>소스 파일\06. External\ScriptCode\ScriptCode\Character</Filter>
+    </ClInclude>
+    <ClInclude Include="..\External\ScriptCode\NanayaTestScript.h">
+      <Filter>소스 파일\06. External\ScriptCode\ScriptCode\Character\Nanaya</Filter>
+    </ClInclude>
+    <ClInclude Include="..\External\ScriptCode\Single\SingletonScript.h">
+      <Filter>소스 파일\06. External\ScriptCode\Manager</Filter>
+    </ClInclude>
+    <ClInclude Include="ShootLayerDlg.h">
+      <Filter>소스 파일\05. Dialog\08. ShootLayerDlg</Filter>
+    </ClInclude>
+    <ClInclude Include="..\External\HitColScript.h">
+      <Filter>소스 파일\06. External\ScriptCode\Collider\HitCol</Filter>
+    </ClInclude>
+    <ClInclude Include="..\External\ScriptCode\EffectScript.h">
+      <Filter>소스 파일\06. External\ScriptCode\ScriptCode\Effect</Filter>
+    </ClInclude>
+    <ClInclude Include="..\External\ScriptCode\EffectManager.h">
+      <Filter>소스 파일\06. External\ScriptCode\Manager</Filter>
+    </ClInclude>
+    <ClInclude Include="..\External\ScriptCode\PlayerManager.h">
+      <Filter>소스 파일\06. External\ScriptCode\Manager</Filter>
+    </ClInclude>
+    <ClInclude Include="..\External\ScriptCode\UIBarBase.h">
+      <Filter>소스 파일\06. External\ScriptCode\ScriptCode\UI\UIBar</Filter>
+    </ClInclude>
+    <ClInclude Include="..\External\ScriptCode\NanayaHitCol.h">
+      <Filter>소스 파일\06. External\ScriptCode\ScriptCode\Character\Nanaya</Filter>
+    </ClInclude>
+    <ClInclude Include="..\External\ScriptCode\UIManager.h">
+      <Filter>소스 파일\06. External\ScriptCode\Manager</Filter>
+    </ClInclude>
+    <ClInclude Include="..\External\ScriptCode\GameManager.h">
+      <Filter>소스 파일\06. External\ScriptCode\Manager</Filter>
+    </ClInclude>
+    <ClInclude Include="..\External\ScriptCode\UIFont.h">
+      <Filter>소스 파일\06. External\ScriptCode\ScriptCode\UI</Filter>
+    </ClInclude>
+    <ClInclude Include="..\External\ScriptCode\LayerManager.h">
+      <Filter>소스 파일\06. External\ScriptCode\Manager</Filter>
+    </ClInclude>
+    <ClInclude Include="..\External\ScriptCode\NanayaHitCol.h">
+      <Filter>소스 파일\06. External\ScriptCode\ScriptCode\Character\Nanaya</Filter>
+    </ClInclude>
+    <ClInclude Include="..\External\ScriptCode\MapScript.h">
+      <Filter>소스 파일\06. External\ScriptCode\ScriptCode\Map</Filter>
+    </ClInclude>
+    <ClInclude Include="..\External\ScriptCode\IoriHitCol.h">
+      <Filter>소스 파일\06. External\ScriptCode\ScriptCode\Character\Iori</Filter>
+    </ClInclude>
+    <ClInclude Include="..\External\ScriptCode\TestScKyo.h">
+      <Filter>소스 파일\06. External\ScriptCode\ScriptCode\Character\Kyo</Filter>
+    </ClInclude>
+    <ClInclude Include="..\External\ScriptCode\KyoHitCol.h">
+      <Filter>소스 파일\06. External\ScriptCode\ScriptCode\Character\Kyo</Filter>
+    </ClInclude>
+    <ClInclude Include="..\External\ScriptCode\TestScIori.h">
+      <Filter>소스 파일\06. External\ScriptCode\ScriptCode\Character\Iori</Filter>
+    </ClInclude>
+    <ClInclude Include="..\External\ScriptCode\KyoEffect.h">
+      <Filter>소스 파일\06. External\ScriptCode\ScriptCode\Character\Kyo</Filter>
+    </ClInclude>
+    <ClInclude Include="..\External\ScriptCode\UICombo.h">
+      <Filter>소스 파일\06. External\ScriptCode\ScriptCode\UI\Combo</Filter>
+    </ClInclude>
+    <ClInclude Include="..\External\ScriptCode\UITimer.h">
+      <Filter>소스 파일\06. External\ScriptCode\ScriptCode\UI\Timer</Filter>
+    </ClInclude>
+    <ClInclude Include="..\External\ScriptCode\UICharacterSel.h">
+      <Filter>소스 파일\06. External\ScriptCode\ScriptCode\UI\CharacterSel</Filter>
+    </ClInclude>
+    <ClInclude Include="..\External\ScriptCode\ShadowScript.h">
+      <Filter>소스 파일\06. External\ScriptCode\ScriptCode\Shadow</Filter>
+    </ClInclude>
+    <ClInclude Include="..\External\ScriptCode\UITitleScreen.h">
+      <Filter>소스 파일\06. External\ScriptCode\ScriptCode\UI\Title</Filter>
+    </ClInclude>
+    <ClInclude Include="..\External\ScriptCode\GameMsg.h">
+      <Filter>소스 파일\06. External\ScriptCode\ScriptCode\UI\GameMsg</Filter>
+    </ClInclude>
+    <ClInclude Include="..\External\ScriptCode\IoriBullet.h">
+      <Filter>소스 파일\06. External\ScriptCode\Bullet</Filter>
+    </ClInclude>
+    <ClInclude Include="..\External\ScriptCode\BulletMgr.h">
+      <Filter>소스 파일\06. External\ScriptCode\Manager</Filter>
+    </ClInclude>
+    <ClInclude Include="..\External\ScriptCode\SoundLoadMgr.h">
+      <Filter>소스 파일\06. External\ScriptCode\Manager</Filter>
+    </ClInclude>
+    <ClInclude Include="..\External\ScriptCode\UIBtnOutput.h">
+      <Filter>소스 파일\06. External\ScriptCode\ScriptCode\UI\BtnOutput</Filter>
+    </ClInclude>
+    <ClInclude Include="..\Doom\ClientMgr.h">
+      <Filter>소스 파일\06. External\ClientManager</Filter>
+    </ClInclude>
+    <ClInclude Include="..\External\ScriptCode\KyoLoad.h">
+      <Filter>소스 파일\06. External\ScriptCode\ScriptCode\Character\Kyo</Filter>
+    </ClInclude>
+    <ClInclude Include="..\External\ScriptCode\UIMatchWait.h">
+      <Filter>소스 파일\06. External\ScriptCode\ScriptCode\UI\MatchWait</Filter>
+    </ClInclude>
+    <ClInclude Include="..\External\ScriptCode\UICmdList.h">
+      <Filter>소스 파일\06. External\ScriptCode\ScriptCode\UI</Filter>
+    </ClInclude>
+    <ClInclude Include="..\External\ScriptCode\UIGuardBar.h">
+      <Filter>소스 파일\06. External\ScriptCode\ScriptCode\UI\UIBar</Filter>
+    </ClInclude>
+    <ClInclude Include="..\External\ScriptCode\KOMsg.h">
+      <Filter>소스 파일\06. External\ScriptCode\ScriptCode\UI\GameMsg</Filter>
+    </ClInclude>
+    <ClInclude Include="..\External\ScriptCode\ModeMgr.h">
+      <Filter>소스 파일\06. External\ScriptCode\Manager</Filter>
+    </ClInclude>
+  </ItemGroup>
+  <ItemGroup>
+    <ClCompile Include="stdafx.cpp">
+      <Filter>소스 파일</Filter>
+    </ClCompile>
+    <ClCompile Include="DoomTool.cpp">
+      <Filter>소스 파일\01. App</Filter>
+    </ClCompile>
+    <ClCompile Include="MainFrm.cpp">
+      <Filter>소스 파일\02. MainFrm</Filter>
+    </ClCompile>
+    <ClCompile Include="MySplitterWnd.cpp">
+      <Filter>소스 파일\04. Wnd\01. MySpliter</Filter>
+    </ClCompile>
+    <ClCompile Include="DebugView.cpp">
+      <Filter>소스 파일\03. View\05. DebugView</Filter>
+    </ClCompile>
+    <ClCompile Include="ButtonView.cpp">
+      <Filter>소스 파일\03. View\04. ButtonView</Filter>
+    </ClCompile>
+    <ClCompile Include="ComponentView.cpp">
+      <Filter>소스 파일\03. View\03. ComponentView</Filter>
+    </ClCompile>
+    <ClCompile Include="GameView.cpp">
+      <Filter>소스 파일\03. View\01. GameView</Filter>
+    </ClCompile>
+    <ClCompile Include="ComponentDlg.cpp">
+      <Filter>소스 파일\03. View\03. ComponentView\01. ComponentDlg</Filter>
+    </ClCompile>
+    <ClCompile Include="TransformDlg.cpp">
+      <Filter>소스 파일\03. View\03. ComponentView\01. ComponentDlg\01. TransformDlg</Filter>
+    </ClCompile>
+    <ClCompile Include="MeshRenderDlg.cpp">
+      <Filter>소스 파일\03. View\03. ComponentView\01. ComponentDlg\02. MeshRenderDlg</Filter>
+    </ClCompile>
+    <ClCompile Include="ListDlg.cpp">
+      <Filter>소스 파일\05. Dialog\01. ListDlg</Filter>
+    </ClCompile>
+    <ClCompile Include="ColliderDlg.cpp">
+      <Filter>소스 파일\03. View\03. ComponentView\01. ComponentDlg\03. ColliderDlg</Filter>
+    </ClCompile>
+    <ClCompile Include="ScriptDlg.cpp">
+      <Filter>소스 파일\03. View\03. ComponentView\01. ComponentDlg\07. ScriptDlg</Filter>
+    </ClCompile>
+    <ClCompile Include="..\External\ScriptManager.cpp">
+      <Filter>소스 파일\06. External\ScriptCode\ScriptCode\ScriptManager</Filter>
+    </ClCompile>
+    <ClCompile Include="TreeCtrlDlg.cpp">
+      <Filter>소스 파일\03. View\02. HierachyView\TreeCtrlDlg</Filter>
+    </ClCompile>
+    <ClCompile Include="CameraDlg.cpp">
+      <Filter>소스 파일\03. View\03. ComponentView\01. ComponentDlg\06. CameraDlg</Filter>
+    </ClCompile>
+    <ClCompile Include="HierachyDlg.cpp">
+      <Filter>소스 파일\03. View\02. HierachyView\TreeCtrlDlg\01. HierachyDlg</Filter>
+    </ClCompile>
+    <ClCompile Include="HierachyView.cpp">
+      <Filter>소스 파일\03. View\02. HierachyView</Filter>
+    </ClCompile>
+    <ClCompile Include="ResDlg.cpp">
+      <Filter>소스 파일\03. View\02. HierachyView\TreeCtrlDlg\02. ResDlg</Filter>
+    </ClCompile>
+    <ClCompile Include="..\External\SaveLoadManager.cpp">
+      <Filter>소스 파일\06. External\SaveLoadManager</Filter>
+    </ClCompile>
+    <ClCompile Include="LayerDlg.cpp">
+      <Filter>소스 파일\05. Dialog\02. LayerDlg</Filter>
+    </ClCompile>
+    <ClCompile Include="AddAnimDlg.cpp">
+      <Filter>소스 파일\05. Dialog\03. AddAnimDlg</Filter>
+    </ClCompile>
+    <ClCompile Include="AnimatorDlgEX.cpp">
+      <Filter>소스 파일\03. View\03. ComponentView\01. ComponentDlg\05. AnimatorDlgEX</Filter>
+    </ClCompile>
+    <ClCompile Include="GameObjDlg.cpp">
+      <Filter>소스 파일\05. Dialog\04. GameObjDlg</Filter>
+    </ClCompile>
+    <ClCompile Include="..\External\ScriptCode\PlayerScKyo.cpp">
+      <Filter>소스 파일\06. External\ScriptCode\ScriptCode\Character\Kyo</Filter>
+    </ClCompile>
+    <ClCompile Include="..\External\ScriptCode\NanayaScript.cpp">
+      <Filter>소스 파일\06. External\ScriptCode\ScriptCode\Character\Nanaya</Filter>
+    </ClCompile>
+    <ClCompile Include="..\External\ScriptCode\CameraScript.cpp">
+      <Filter>소스 파일\06. External\ScriptCode\ScriptCode\Camera</Filter>
+    </ClCompile>
+    <ClCompile Include="..\External\ScriptCode\DownColScript.cpp">
+      <Filter>소스 파일\06. External\ScriptCode\Collider\DownCol</Filter>
+    </ClCompile>
+    <ClCompile Include="..\External\ScriptCode\UpColScript.cpp">
+      <Filter>소스 파일\06. External\ScriptCode\Collider\UpCol</Filter>
+    </ClCompile>
+    <ClCompile Include="ChangeLayerDlg.cpp">
+      <Filter>소스 파일\05. Dialog\05. ChangeLayerDlg</Filter>
+    </ClCompile>
+    <ClCompile Include="..\External\ScriptCode\PlayerScIori.cpp">
+      <Filter>소스 파일\06. External\ScriptCode\ScriptCode\Character\Iori</Filter>
+    </ClCompile>
+    <ClCompile Include="..\External\ScriptCode\UIBar.cpp">
+      <Filter>소스 파일\06. External\ScriptCode\ScriptCode\UI\UIBar</Filter>
+    </ClCompile>
+    <ClCompile Include="..\External\ScriptCode\UIPanel.cpp">
+      <Filter>소스 파일\06. External\ScriptCode\ScriptCode\UI\Panel</Filter>
+    </ClCompile>
+    <ClCompile Include="..\External\KeyCommand.cpp">
+      <Filter>소스 파일\06. External\KeyCommand</Filter>
+    </ClCompile>
+    <ClCompile Include="CheckColLayerDlg.cpp">
+      <Filter>소스 파일\05. Dialog\06. CheckColLayerDlg</Filter>
+    </ClCompile>
+    <ClCompile Include="EditAnimDlg.cpp">
+      <Filter>소스 파일\05. Dialog\07. EditLayerDlg</Filter>
+    </ClCompile>
+    <ClCompile Include="LayerDialog.cpp">
+      <Filter>소스 파일\03. View\02. HierachyView\TreeCtrlDlg\03. LayerDlg</Filter>
+    </ClCompile>
+    <ClCompile Include="..\External\ScriptCode\TestScript.cpp">
+      <Filter>소스 파일\06. External\ScriptCode\ScriptCode</Filter>
+    </ClCompile>
+    <ClCompile Include="..\External\ColScript.cpp">
+      <Filter>소스 파일\06. External\ScriptCode\Collider</Filter>
+    </ClCompile>
+    <ClCompile Include="..\External\CharactorScript.cpp">
+      <Filter>소스 파일\06. External\ScriptCode\ScriptCode\Character</Filter>
+    </ClCompile>
+    <ClCompile Include="..\External\ScriptCode\NanayaTestScript.cpp">
+      <Filter>소스 파일\06. External\ScriptCode\ScriptCode\Character\Nanaya</Filter>
+    </ClCompile>
+    <ClCompile Include="ShootLayerDlg.cpp">
+      <Filter>소스 파일\05. Dialog\08. ShootLayerDlg</Filter>
+    </ClCompile>
+    <ClCompile Include="..\External\HitColScript.cpp">
+      <Filter>소스 파일\06. External\ScriptCode\Collider\HitCol</Filter>
+    </ClCompile>
+    <ClCompile Include="..\External\ScriptCode\EffectScript.cpp">
+      <Filter>소스 파일\06. External\ScriptCode\ScriptCode\Effect</Filter>
+    </ClCompile>
+    <ClCompile Include="..\External\ScriptCode\EffectManager.cpp">
+      <Filter>소스 파일\06. External\ScriptCode\Manager</Filter>
+    </ClCompile>
+    <ClCompile Include="..\External\ScriptCode\PlayerManager.cpp">
+      <Filter>소스 파일\06. External\ScriptCode\Manager</Filter>
+    </ClCompile>
+    <ClCompile Include="..\External\ScriptCode\UIBarBase.cpp">
+      <Filter>소스 파일\06. External\ScriptCode\ScriptCode\UI\UIBar</Filter>
+    </ClCompile>
+    <ClCompile Include="..\External\ScriptCode\KyoHitCol.cpp">
+      <Filter>소스 파일\06. External\ScriptCode\ScriptCode\Character\Kyo</Filter>
+    </ClCompile>
+    <ClCompile Include="..\External\ScriptCode\NanayaHitCol.cpp">
+      <Filter>소스 파일\06. External\ScriptCode\ScriptCode\Character\Nanaya</Filter>
+    </ClCompile>
+    <ClCompile Include="..\External\ScriptCode\UIManager.cpp">
+      <Filter>소스 파일\06. External\ScriptCode\Manager</Filter>
+    </ClCompile>
+    <ClCompile Include="..\External\ScriptCode\GameManager.cpp">
+      <Filter>소스 파일\06. External\ScriptCode\Manager</Filter>
+    </ClCompile>
+    <ClCompile Include="..\External\ScriptCode\UIFont.cpp">
+      <Filter>소스 파일\06. External\ScriptCode\ScriptCode\UI</Filter>
+    </ClCompile>
+    <ClCompile Include="..\External\ScriptCode\LayerManager.cpp">
+      <Filter>소스 파일\06. External\ScriptCode\Manager</Filter>
+    </ClCompile>
+    <ClCompile Include="..\External\ScriptCode\NanayaHitCol.cpp">
+      <Filter>소스 파일\06. External\ScriptCode\ScriptCode\Character\Nanaya</Filter>
+    </ClCompile>
+    <ClCompile Include="..\External\ScriptCode\MapScript.cpp">
+      <Filter>소스 파일\06. External\ScriptCode\ScriptCode\Map</Filter>
+    </ClCompile>
+    <ClCompile Include="..\External\ScriptCode\IoriHitCol.cpp">
+      <Filter>소스 파일\06. External\ScriptCode\ScriptCode\Character\Iori</Filter>
+    </ClCompile>
+    <ClCompile Include="..\External\ScriptCode\TestScKyo.cpp">
+      <Filter>소스 파일\06. External\ScriptCode\ScriptCode\Character\Kyo</Filter>
+    </ClCompile>
+    <ClCompile Include="..\External\ScriptCode\TestScIori.cpp">
+      <Filter>소스 파일\06. External\ScriptCode\ScriptCode\Character\Iori</Filter>
+    </ClCompile>
+    <ClCompile Include="..\External\ScriptCode\KyoEffect.cpp">
+      <Filter>소스 파일\06. External\ScriptCode\ScriptCode\Character\Kyo</Filter>
+    </ClCompile>
+    <ClCompile Include="..\External\ScriptCode\UICombo.cpp">
+      <Filter>소스 파일\06. External\ScriptCode\ScriptCode\UI\Combo</Filter>
+    </ClCompile>
+    <ClCompile Include="..\External\ScriptCode\UITimer.cpp">
+      <Filter>소스 파일\06. External\ScriptCode\ScriptCode\UI\Timer</Filter>
+    </ClCompile>
+    <ClCompile Include="..\External\ScriptCode\UICharacterSel.cpp">
+      <Filter>소스 파일\06. External\ScriptCode\ScriptCode\UI\CharacterSel</Filter>
+    </ClCompile>
+    <ClCompile Include="..\External\ScriptCode\ShadowScript.cpp">
+      <Filter>소스 파일\06. External\ScriptCode\ScriptCode\Shadow</Filter>
+    </ClCompile>
+    <ClCompile Include="..\External\ScriptCode\UITitleScreen.cpp">
+      <Filter>소스 파일\06. External\ScriptCode\ScriptCode\UI\Title</Filter>
+    </ClCompile>
+    <ClCompile Include="..\External\ScriptCode\GameMsg.cpp">
+      <Filter>소스 파일\06. External\ScriptCode\ScriptCode\UI\GameMsg</Filter>
+    </ClCompile>
+    <ClCompile Include="..\External\ScriptCode\IoriBullet.cpp">
+      <Filter>소스 파일\06. External\ScriptCode\Bullet</Filter>
+    </ClCompile>
+    <ClCompile Include="..\External\ScriptCode\BulletMgr.cpp">
+      <Filter>소스 파일\06. External\ScriptCode\Manager</Filter>
+    </ClCompile>
+    <ClCompile Include="..\External\ScriptCode\SoundLoadMgr.cpp">
+      <Filter>소스 파일\06. External\ScriptCode\Manager</Filter>
+    </ClCompile>
+    <ClCompile Include="..\External\ScriptCode\UIBtnOutput.cpp">
+      <Filter>소스 파일\06. External\ScriptCode\ScriptCode\UI\BtnOutput</Filter>
+    </ClCompile>
+    <ClCompile Include="..\Doom\ClientMgr.cpp">
+      <Filter>소스 파일\06. External\ClientManager</Filter>
+    </ClCompile>
+    <ClCompile Include="..\External\ScriptCode\KyoLoad.cpp">
+      <Filter>소스 파일\06. External\ScriptCode\ScriptCode\Character\Kyo</Filter>
+    </ClCompile>
+    <ClCompile Include="..\External\ScriptCode\UIMatchWait.cpp">
+      <Filter>소스 파일\06. External\ScriptCode\ScriptCode\UI\MatchWait</Filter>
+    </ClCompile>
+    <ClCompile Include="..\External\ScriptCode\UICmdList.cpp">
+      <Filter>소스 파일\06. External\ScriptCode\ScriptCode\UI</Filter>
+    </ClCompile>
+    <ClCompile Include="..\External\ScriptCode\UIGuardBar.cpp">
+      <Filter>소스 파일\06. External\ScriptCode\ScriptCode\UI\UIBar</Filter>
+    </ClCompile>
+    <ClCompile Include="..\External\ScriptCode\KOMsg.cpp">
+      <Filter>소스 파일\06. External\ScriptCode\ScriptCode\UI\GameMsg</Filter>
+    </ClCompile>
+    <ClCompile Include="..\External\ScriptCode\ModeMgr.cpp">
+      <Filter>소스 파일\06. External\ScriptCode\Manager</Filter>
+    </ClCompile>
+  </ItemGroup>
+  <ItemGroup>
+    <ResourceCompile Include="DoomTool.rc">
+      <Filter>리소스 파일</Filter>
+    </ResourceCompile>
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="res\DoomTool.rc2">
+      <Filter>리소스 파일</Filter>
+    </None>
+    <None Include="ClassDiagram.cd" />
+  </ItemGroup>
+  <ItemGroup>
+    <Image Include="res\DoomTool.ico">
+      <Filter>리소스 파일</Filter>
+    </Image>
+  </ItemGroup>
+</Project>
